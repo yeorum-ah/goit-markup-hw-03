@@ -204,7 +204,7 @@ body {
   width: calc((100% - 90px) / 4);
   margin-right: var(--list-gap);
 }
-.features-list :nth-child(4) {
+.features-list:nth-child(4) {
   margin-right: 0px;
 }
 .services-title,
@@ -227,7 +227,7 @@ body {
   margin-right: var(--list-gap);
 }
 
-.services-list :nth-child(3) {
+.services-list:nth-child(3) {
   margin-right: 0px;
 }
 .services-card .link {
@@ -258,7 +258,7 @@ body {
   margin-right: var(--list-gap);
   background-color: var(--white);
 }
-.team-list :nth-child(4) {
+.team-list:nth-child(4) {
   margin-right: 0px;
 }
 .footer {
@@ -323,8 +323,8 @@ body {
   outline: none;
 }
 
-.filters .position :hover,
-.filters .position :focus {
+.filters .position:hover,
+.filters .position:focus {
   color: var(--white);
   background-color: var(--blue);
 }
@@ -380,10 +380,10 @@ body {
   border: 1px solid #eeeeee;
 }
 
-.serv-list :nth-child(3n) {
+.serv-list:nth-child(3n) {
   margin-right: 0;
 }
-.serv-list :nth-last-child(-n + 3) {
+.serv-list:nth-last-child(-n + 3) {
   margin-bottom: 0;
 }
 .visually-hidden {
