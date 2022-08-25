@@ -232,7 +232,9 @@ body {
 .services {
   padding-bottom: 94px;
 }
-
+.team {
+  background-color: #f5f4fa;
+}
 .team .team-member {
   font-weight: 500;
   font-size: 16px;
